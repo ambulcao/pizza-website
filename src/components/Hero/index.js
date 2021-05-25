@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar';
+import Sidebar from '../Sidebar';
 import { 
     HeroContainer, 
     HeroContent, 
@@ -13,9 +14,10 @@ const Hero = () => {
     return (
        <HeroContainer>
            <Navbar/>
+           <Sidebar />
            <HeroContent>
                <HeroItems>
-                   <HeroH1>Do Morro - Pizzaria e Cervejaria</HeroH1>
+                   <HeroH1>Pizzaria 🍕 e Cervejaria 🍺</HeroH1>
                    <HeroP>A melhor pizza de todos os tempos</HeroP>
                    <HeroBtn>Faça a encomenda</HeroBtn>
                </HeroItems>
