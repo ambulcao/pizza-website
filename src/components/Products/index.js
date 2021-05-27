@@ -2,9 +2,12 @@ import React from 'react'
 
 const Products = () => {
     return (
-        <div>
-            
-        </div>
+        <ProductsContainer>
+            <ProductsHeading>heading</ProductsHeading>
+            <ProductWrapper>
+                {data.map}
+            </ProductWrapper>
+        </ProductsContainer>
     )
 }
 
