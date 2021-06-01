@@ -6,6 +6,9 @@ import product5 from '../../images/PinkFloyd.jpg';
 import product6 from '../../images/TheCure.jpg';
 import produtc7 from '../../images/DepecheMode.jpg';
 import product8 from '../../images/MichaelJackson.jpg';
+import product9 from '../../images/NewOrder.jpeg';
+import product10 from '../../images/Madonna.jpg';
+import product11 from '../../images/Duran_Duran.jpg';
 
 export const productData = [
     {
@@ -70,6 +73,30 @@ export const productData = [
         name: 'Michael Jackson',
         desc: 'Mussarela, Bacon, Champignon',
         price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product9,
+        alt: 'Pizza New Order',
+        name: 'New Order',
+        desc: 'Mussarela, Tomate Seco, Rúcula',
+        price: '€ 14,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product10,
+        alt: 'Pizza Madonna',
+        name: 'Madonna',
+        desc: 'Mussarela, Gorgonzola, Provolone, Parmesão',
+        price: '€ 14,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product11,
+        alt: 'Pizza Duran Duran',
+        name: 'Duran Duran',
+        desc: 'Mussarela, Fiambre, Ovos Picados, Ervilha, Cebola',
+        price: '€ 14,00',
         button: 'Add to Cart',
     }
 ]
