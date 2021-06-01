@@ -13,7 +13,7 @@ export const productData = [
         alt: 'Pizza Tears for Fears',
         name: 'Tears for Fears',
         desc: 'Mussarela, Tomate, Parmesão, Manjericão',
-        price: '€13,00',
+        price: '€ 13,00',
         button: 'Add to Cart',
     },
     {
@@ -21,7 +21,7 @@ export const productData = [
         alt: 'Pizza Pet Shop Boys',
         name: 'Pet Shop Boys',
         desc: 'Queijo Mussarela',
-        price: '€10,00',
+        price: '€ 10,00',
         button: 'Add to Cart',
     },
     {
@@ -29,7 +29,7 @@ export const productData = [
         alt: 'Pizza Prince',
         name: 'Prince',
         desc: 'Mussarela, Fiambre, Ananás',
-        price: '€12,00',
+        price: '€ 12,00',
         button: 'Add to Cart',
     },
     {
@@ -37,7 +37,7 @@ export const productData = [
         alt: 'Pizza Led Zeppelin',
         name: 'Led Zeppelin',
         desc: 'Mussarela, Lombo Defumado, Bacon, Cebola',
-        price: '€14,00',
+        price: '€ 14,00',
         button: 'Add to Cart',
     },
     {
@@ -45,7 +45,7 @@ export const productData = [
         alt: 'Pizza Pink Floyd',
         name: 'Pink Floyd',
         desc: 'Mussarela, Bacon, Ovos Picados, Tomate',
-        price: '€14,00',
+        price: '€ 14,00',
         button: 'Add to Cart',
     },
     {
@@ -53,7 +53,7 @@ export const productData = [
         alt: 'Pizza The Cure',
         name: 'The Cure',
         desc: 'Brócolis, Champignon, Pimento, Mussarela Salpicada',
-        price: '€13,00',
+        price: '€ 13,00',
         button: 'Add to Cart',
     },
     {
@@ -61,7 +61,7 @@ export const productData = [
         alt: 'Pizza Depeche Mode',
         name: 'Depeche Mode',
         desc: 'Mussarela, Champignon, Provolone, Gorgonzola',
-        price: '€14,00',
+        price: '€ 14,00',
         button: 'Add to Cart',
     },
     {
@@ -69,7 +69,7 @@ export const productData = [
         alt: 'Pizza Michael Jackson',
         name: 'Michael Jackson',
         desc: 'Mussarela, Bacon, Champignon',
-        price: '€13,00',
+        price: '€ 13,00',
         button: 'Add to Cart',
     }
 ]
