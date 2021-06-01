@@ -4,6 +4,8 @@ import product3 from '../../images/Prince.jpg';
 import product4 from '../../images/LedZeppelin.jpg';
 import product5 from '../../images/PinkFloyd.jpg';
 import product6 from '../../images/TheCure.jpg';
+import produtc7 from '../../images/DepecheMode.jpg';
+import product8 from '../../images/MichaelJackson.jpg';
 
 export const productData = [
     {
@@ -51,6 +53,22 @@ export const productData = [
         alt: 'Pizza',
         name: 'The Cure',
         desc: 'Brócolis, Champignon, Pimento, Mussarela Salpicada',
+        price: '€13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: produtc7,
+        alt: 'Pizza',
+        name: 'Depeche Mode',
+        desc: 'Mussarela, Champignon, Provolone, Gorgonzola',
+        price: '€14,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product8,
+        alt: 'Pizza',
+        name: 'Michael Jackson',
+        desc: 'Mussarela, Bacon, Champignon',
         price: '€13,00',
         button: 'Add to Cart',
     }
