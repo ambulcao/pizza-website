@@ -10,7 +10,7 @@ import product8 from '../../images/MichaelJackson.jpg';
 export const productData = [
     {
         img: product1,
-        alt: 'Pizza',
+        alt: 'Pizza Tears for Fears',
         name: 'Tears for Fears',
         desc: 'Mussarela, Tomate, Parmesão, Manjericão',
         price: '€13,00',
@@ -18,7 +18,7 @@ export const productData = [
     },
     {
         img: product2,
-        alt: 'Pizza',
+        alt: 'Pizza Pet Shop Boys',
         name: 'Pet Shop Boys',
         desc: 'Queijo Mussarela',
         price: '€10,00',
@@ -26,7 +26,7 @@ export const productData = [
     },
     {
         img: product3,
-        alt: 'Pizza',
+        alt: 'Pizza Prince',
         name: 'Prince',
         desc: 'Mussarela, Fiambre, Ananás',
         price: '€12,00',
@@ -34,7 +34,7 @@ export const productData = [
     },
     {
         img: product4,
-        alt: 'Pizza',
+        alt: 'Pizza Led Zeppelin',
         name: 'Led Zeppelin',
         desc: 'Mussarela, Lombo Defumado, Bacon, Cebola',
         price: '€14,00',
@@ -42,7 +42,7 @@ export const productData = [
     },
     {
         img: product5,
-        alt: 'Pizza',
+        alt: 'Pizza Pink Floyd',
         name: 'Pink Floyd',
         desc: 'Mussarela, Bacon, Ovos Picados, Tomate',
         price: '€14,00',
@@ -50,7 +50,7 @@ export const productData = [
     },
     {
         img: product6,
-        alt: 'Pizza',
+        alt: 'Pizza The Cure',
         name: 'The Cure',
         desc: 'Brócolis, Champignon, Pimento, Mussarela Salpicada',
         price: '€13,00',
@@ -58,7 +58,7 @@ export const productData = [
     },
     {
         img: produtc7,
-        alt: 'Pizza',
+        alt: 'Pizza Depeche Mode',
         name: 'Depeche Mode',
         desc: 'Mussarela, Champignon, Provolone, Gorgonzola',
         price: '€14,00',
@@ -66,7 +66,7 @@ export const productData = [
     },
     {
         img: product8,
-        alt: 'Pizza',
+        alt: 'Pizza Michael Jackson',
         name: 'Michael Jackson',
         desc: 'Mussarela, Bacon, Champignon',
         price: '€13,00',
