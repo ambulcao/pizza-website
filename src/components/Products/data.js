@@ -10,6 +10,10 @@ import product9 from '../../images/NewOrder.jpeg';
 import product10 from '../../images/Madonna.jpg';
 import product11 from '../../images/Duran_Duran.jpg';
 
+import sweet1 from '../../images/sweet-1.jpg';
+import sweet2 from '../../images/sweet-2.jpg';
+import sweet3 from '../../images/sweet-3.jpg';
+
 export const productData = [
     {
         img: product1,
@@ -97,6 +101,35 @@ export const productData = [
         name: 'Duran Duran',
         desc: 'Mussarela, Fiambre, Ovos Picados, Ervilha, Cebola',
         price: '€ 14,00',
+        button: 'Add to Cart',
+    }
+];
+
+
+
+export const productDataTwo = [
+    {
+        img: sweet1,
+        alt: 'Brownie',
+        name: 'Brownie Bunch',
+        desc: 'Quadrados de brownie com fudge duplo coberto com pedaços de chocolate branco e nozes de macadâmia',
+        price: '€ 9,99',
+        button: 'Add to Cart',
+    },
+    {
+        img: sweet2,
+        alt: 'Donuts',
+        name: 'Doughlicious',
+        desc: 'Donuts com cobertura de chocolate belga coberto de glacê e granulado por cima',
+        price: '€ 9,99',
+        button: 'Add to Cart',
+    },
+    {
+        img: sweet3,
+        alt: 'Ice Cream',
+        name: 'Caramel Wonder',
+        desc: 'Sorvete de baunilha coberto com caramelo e cobertura de chocolate coberto com um palito de coco',
+        price: '€ 12,99',
         button: 'Add to Cart',
     }
 ]
