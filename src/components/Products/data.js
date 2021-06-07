@@ -9,6 +9,17 @@ import product8 from '../../images/MichaelJackson.jpg';
 import product9 from '../../images/NewOrder.jpeg';
 import product10 from '../../images/Madonna.jpg';
 import product11 from '../../images/Duran_Duran.jpg';
+import product12 from '../../images/ThePolice.jpg';
+import product13 from '../../images/a-ha.jpg';
+import product14 from '../../images/Dire_Straits.jpg';
+import product15 from '../../images/Scorpions.jpg';
+import product16 from '../../images/David_Bowie.jpg';
+import product17 from '../../images/Queen.jpg';
+import product18 from '../../images/Eurythmics.jpg';
+import product19 from '../../images/Billy_Idol.jpg';
+import product20 from '../../images/Guns_N_Roses.jpg';
+import product21 from '../../images/INXS.jpg';
+import product22 from '../../images/U2.jpg';
 
 import sweet1 from '../../images/sweet-1.jpg';
 import sweet2 from '../../images/sweet-2.jpg';
@@ -101,6 +112,94 @@ export const productData = [
         name: 'Duran Duran',
         desc: 'Mussarela, Fiambre, Ovos Picados, Ervilha, Cebola',
         price: '€ 14,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product12,
+        alt: 'Pizza The Police',
+        name: 'The Police',
+        desc: 'Mussarela, Parmessão, Gorgonzola, Tomate, Alcaparras',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product13,
+        alt: 'Pizza A-Ha',
+        name: 'A-Ha',
+        desc: 'Mussarela, Pepperoni, Manjericão',
+        price: '€ 14,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product14,
+        alt: 'Pizza Dire Straits',
+        name: 'Dire Straits',
+        desc: 'Mussarela, Pepperoni',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product15,
+        alt: 'Pizza Scorpions',
+        name: 'Scorpions',
+        desc: 'Mussarela, Fiambre, Cebola, Pimentos',
+        price: '€ 12,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product16,
+        alt: 'Pizza David Bowie',
+        name: 'David Bowie',
+        desc: 'Mussarela, Carne Seca, Bacon, Cheddar, Cebola Frita',
+        price: '€ 17,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product17,
+        alt: 'Pizza Queen',
+        name: 'Queen',
+        desc: 'Mussarela, Carne Bovina, Pimento',
+        price: '€ 17,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product18,
+        alt: 'Pizza Eurythmics',
+        name: 'Eurythmics',
+        desc: 'Mussarela, Cheddar, Peito de Peru',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product19,
+        alt: 'Pizza Billy Idol',
+        name: 'Billy Idol',
+        desc: 'Mussarela, Gorgonzola',
+        price: '€ 12,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product20,
+        alt: 'Pizza Guns N Roses',
+        name: 'Guns N Roses',
+        desc: 'Mussarela, Frango, Cheddar, Rodelas Tomate',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product21,
+        alt: 'Pizza INXS',
+        name: 'INXS',
+        desc: 'Mussarela, Frango, Cheddar',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product22,
+        alt: 'Pizza U2',
+        name: 'U2',
+        desc: 'Mussarela, Tomate, Rúcula',
+        price: '€ 12,00',
         button: 'Add to Cart',
     }
 ];
