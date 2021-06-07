@@ -20,6 +20,8 @@ import product19 from '../../images/Billy_Idol.jpg';
 import product20 from '../../images/Guns_N_Roses.jpg';
 import product21 from '../../images/INXS.jpg';
 import product22 from '../../images/U2.jpg';
+import product23 from '../../images/Red_Hot_Chili_Peppers.jpg';
+import product24 from '../../images/Alphaville.jpg';
 
 import sweet1 from '../../images/sweet-1.jpg';
 import sweet2 from '../../images/sweet-2.jpg';
@@ -199,6 +201,22 @@ export const productData = [
         alt: 'Pizza U2',
         name: 'U2',
         desc: 'Mussarela, Tomate, Rúcula',
+        price: '€ 12,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product23,
+        alt: 'Pizza Red Hot Chili Peppers',
+        name: 'Red Hot Chili Peppers',
+        desc: 'Mussarela, Frango, Pimento, Cebola',
+        price: '€ 14,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product24,
+        alt: 'Pizza Alphaville',
+        name: 'Alphaville',
+        desc: 'Mussarela, Frango',
         price: '€ 12,00',
         button: 'Add to Cart',
     }
