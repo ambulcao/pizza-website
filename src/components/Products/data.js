@@ -22,6 +22,19 @@ import product21 from '../../images/INXS.jpg';
 import product22 from '../../images/U2.jpg';
 import product23 from '../../images/Red_Hot_Chili_Peppers.jpg';
 import product24 from '../../images/Alphaville.jpg';
+import product25 from '../../images/The_Human_League.jpg';
+import product26 from '../../images/Robbie_Williams.jpg';
+import product27 from '../../images/Oasis.jpg';
+import product28 from '../../images/Nirvana.jpg';
+import product29 from '../../images/Pearl_Jam.jpg';
+import product30 from '../../images/The_Smashing_Pumpkins.jpg';
+import product31 from '../../images/Blur.jpg';
+import product32 from '../../images/Stone_Temple_Pilots.jpg';
+import product33 from '../../images/Radiohead.jpg';
+import product34 from '../../images/Faith_No_More.jpg';
+import product35 from '../../images/Kiss.jpg';
+import product36 from '../../images/Ammy_Winehouse.jpg';
+import product37 from '../../images/Iron_Maiden.jpg';
 
 import sweet1 from '../../images/sweet-1.jpg';
 import sweet2 from '../../images/sweet-2.jpg';
@@ -219,7 +232,36 @@ export const productData = [
         desc: 'Mussarela, Frango',
         price: '€ 12,00',
         button: 'Add to Cart',
+    },
+    {
+        img: product25,
+        alt: 'Pizza The Human League',
+        name: 'The Humam League',
+        desc: 'Mussarela, Champignon, Tomate, Rúcula',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product26,
+        alt: 'Pizza Robbie Williams',
+        name: 'Robbie Williams',
+        desc: 'Mussarela, Parmessão, Peito de Peru, Tomate',
+        price: '€ 14,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product27,
+        alt: 'Pizza Oasis',
+        name: 'Oasis',
+        desc: 'Mussarela, Lombo defumado, Manjericão',
+        price: '€ 13,00',
+        button: 'Add to Cart',
     }
+
+    /** Nirvana / Pearl Jam / The Smashing Pumpkins / Blur 
+     * / Stone Temple Pilots / Radiohead / Faith No More / 
+     * Kiss / Amy Winehouse / Iron Maiden */
+     
 ];
 
 
