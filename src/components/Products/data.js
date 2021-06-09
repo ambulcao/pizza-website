@@ -256,9 +256,25 @@ export const productData = [
         desc: 'Mussarela, Lombo defumado, Manjericão',
         price: '€ 13,00',
         button: 'Add to Cart',
+    },
+    {
+        img: product28,
+        alt: 'Pizza Nirvana',
+        name: 'Nirvana',
+        desc: 'Mussarela, Frango, Tomate, Ervilha, Milho',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product29,
+        alt: 'Pizza Pearl Jam',
+        name: 'Pearl Jam',
+        desc: 'Mussarela, Gorgonzola, Provolone, Parmesão, Cheddar',
+        price: '€ 15,00',
+        button: 'Add to Cart',
     }
 
-    /** Nirvana / Pearl Jam / The Smashing Pumpkins / Blur 
+    /** The Smashing Pumpkins / Blur 
      * / Stone Temple Pilots / Radiohead / Faith No More / 
      * Kiss / Amy Winehouse / Iron Maiden */
      
