@@ -23,6 +23,10 @@ const Hero = () => {
            <Sidebar isOpen={isOpen} toggle={toggle}/>
            <HeroContent>
                <HeroItems>
+                   
+                        <iframe src="https://lottiefiles.com/iframe/63703-pizza"></iframe>
+                    
+           
                    <HeroH1>Pizzaria 🍕 e Choperia 🍺</HeroH1>
                    <HeroP>A melhor pizza de todos os tempos</HeroP>
                    <HeroBtn>Faça a encomenda</HeroBtn>
