@@ -6,7 +6,7 @@ import product5 from '../../images/PinkFloyd.jpg';
 import product6 from '../../images/TheCure.jpg';
 import produtc7 from '../../images/DepecheMode.jpg';
 import product8 from '../../images/MichaelJackson.jpg';
-import product9 from '../../images/NewOrder.jpeg';
+import product9 from '../../images/NewOrder.jpg';
 import product10 from '../../images/Madonna.jpg';
 import product11 from '../../images/Duran_Duran.jpg';
 import product12 from '../../images/ThePolice.jpg';
@@ -272,12 +272,71 @@ export const productData = [
         desc: 'Mussarela, Gorgonzola, Provolone, Parmesão, Cheddar',
         price: '€ 15,00',
         button: 'Add to Cart',
-    }
-
-    /** The Smashing Pumpkins / Blur 
-     * / Stone Temple Pilots / Radiohead / Faith No More / 
-     * Kiss / Amy Winehouse / Iron Maiden */
-     
+    },
+    {
+        img: product30,
+        alt: 'Pizza The Smashing Pimpkins',
+        name: 'The Smashing Pimpkins',
+        desc: 'Mussarela, Champignon, Cebola',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product31,
+        alt: 'Pizza Blur',
+        name: 'Blur',
+        desc: 'Mussarela, Lombo, Cebola',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product32,
+        alt: 'Pizza Stone Temple Pilots',
+        name: 'Stone Temple Pilots',
+        desc: 'Mussarela, Carne Seca, Cebola',
+        price: '€ 15,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product33,
+        alt: 'Pizza Radiohead',
+        name: 'Radiohead',
+        desc: 'Mussarela, Frango, Milho',
+        price: '€ 12,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product34,
+        alt: 'Pizza Faith No More',
+        name: 'Faith No More',
+        desc: 'Mussarela, Brócolis, Cebola Frita',
+        price: '€ 12,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product35,
+        alt: 'Pizza Kiss',
+        name: 'Kiss',
+        desc: 'Mussarela, Tomate Seco, Palmito',
+        price: '€ 15,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product36,
+        alt: 'Pizza Amy Winehouse',
+        name: 'Amy Winehouse',
+        desc: 'Mussarela, Palmito, Pimento, Bacon',
+        price: '€ 16,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product37,
+        alt: 'Pizza Iron Maiden',
+        name: 'Iron Maiden',
+        desc: 'Mussarela, Salaminho',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    }     
 ];
 
 
