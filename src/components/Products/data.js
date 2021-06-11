@@ -1,4 +1,9 @@
+/** Import Product UK */
+
 import product1 from '../../images/Tears_for_Fears.jpg';
+
+
+
 import product2 from '../../images/Pet_Shop_Boys.jpg';
 import product3 from '../../images/Prince.jpg';
 import product4 from '../../images/LedZeppelin.jpg';
@@ -37,11 +42,18 @@ import product36 from '../../images/Ammy_Winehouse.jpg';
 import product37 from '../../images/Iron_Maiden.jpg';
 
 /** Import Product Br */
+
 import product38 from '../../images/Nenhum_de_Nos.jpg';
+import product39 from '../../images/Legiao_Urbana.jpg';
+
+/** Import Sobremessas */
 
 import sweet1 from '../../images/sweet-1.jpg';
 import sweet2 from '../../images/sweet-2.jpg';
 import sweet3 from '../../images/sweet-3.jpg';
+
+
+/** Export Data */
 
 export const productData = [
     {
@@ -347,8 +359,16 @@ export const productDataTwo = [
         img: product38,
         alt: 'Pizza Nenhum de Nós',
         name: 'Nenhum de Nós',
-        desc: 'Mussarela',
-        price: '€ 9,99',
+        desc: 'Mussarela, Fiambre, Rodelas de Tomate',
+        price: '€ 12,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product39,
+        alt: 'Pizza Legião Urbana',
+        name: 'Legião Urbana',
+        desc: 'Mussarela, Linguiça, Pimenta, Ovos Picados, Cebola',
+        price: '€ 13,00',
         button: 'Add to Cart',
     }
 ]
