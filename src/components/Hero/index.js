@@ -23,7 +23,7 @@ const Hero = () => {
            <Sidebar isOpen={isOpen} toggle={toggle}/>
            <HeroContent>
                <HeroItems>
-                   
+                        <p>Teste animmation</p>
                         <iframe src="https://lottiefiles.com/iframe/63703-pizza"></iframe>
                     
            
