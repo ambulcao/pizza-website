@@ -45,6 +45,16 @@ import product37 from '../../images/Iron_Maiden.jpg';
 
 import product38 from '../../images/Nenhum_de_Nos.jpg';
 import product39 from '../../images/Legiao_Urbana.jpg';
+import product40 from '../../images/Engenheiros_do_Hawaii.jpg';
+import product41 from '../../images/Cpm22.jpg';
+import product42 from '../../images/Biquini_Cavadao.jpg';
+import product43 from '../../images/Titas.jpg';
+import product44 from '../../images/Detonautas.jpg';
+import product45 from '../../images/Los_Hermanos.jpg';
+import product46 from '../../images/Charlie_Brown.jpg';
+import product47 from '../../images/Kid_Abelha.jpg';
+import product48 from '../../images/Raimundos.jpg';
+import product49 from '../../images/Skank.jpg';
 
 /** Import Sobremessas */
 
@@ -368,6 +378,86 @@ export const productDataTwo = [
         alt: 'Pizza Legião Urbana',
         name: 'Legião Urbana',
         desc: 'Mussarela, Linguiça, Pimenta, Ovos Picados, Cebola',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product40,
+        alt: 'Pizza Engenheiros do Hawaii',
+        name: 'Engenheiros do Hawaii',
+        desc: 'Mussarela, Bacon',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product41,
+        alt: 'Pìzza CPM22',
+        name: 'CPM22',
+        desc: 'Atum, Cebola',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product42,
+        alt: 'Pizza Biquini Cavadão',
+        name: 'Biquini Cavadão',
+        desc: 'Mussarela, Atum, Cebola',
+        price: '€ 14,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product43,
+        alt: 'Pizza Titãs',
+        name: 'Titãs',
+        desc: 'Mussarela, Pimento, Gorgonzola, Alcaparras, Parmesão',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product44,
+        alt: 'Pizza Detonautas',
+        name: 'Detonautas',
+        desc: 'Mussarela, Fiambre, Champignon, Cebola, Bacon',
+        price: '€ 14,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product45,
+        alt: 'Pizza Los Hermanos',
+        name: 'Los Hermanos',
+        desc: 'Mussarela, Atum, Cebola, Pimentos',
+        price: '€ 14,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product46,
+        alt: 'Pizza Charlie Brown',
+        name: 'Charlie Brown',
+        desc: 'Mussarela, Salpicada, Cebola Frita',
+        price: '€ 11,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product47,
+        alt: 'Pizza Kid Abelha',
+        name: 'Kid Abelha',
+        desc: 'Mussarela, Brócolis, Bacon, Cheddar',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product48,
+        alt: 'Pizza Raimundos',
+        name: 'Raimundos',
+        desc: 'Mussarela, Alcachofra, Pimentos, Azeitona Picada',
+        price: '€ 14,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: product49,
+        alt: 'Pizza Skank',
+        name: 'Skank',
+        desc: 'Mussarela, Gorgonzola, Champignon, Molho de Vinho',
         price: '€ 13,00',
         button: 'Add to Cart',
     }
