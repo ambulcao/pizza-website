@@ -29,23 +29,25 @@ import productUk02 from '../../images/Pet_Shop_Boys.jpg';
 import productUk03 from '../../images/LedZeppelin.jpg';
 import productUk04 from '../../images/PinkFloyd.jpg';
 import productUk05 from '../../images/TheCure.jpg';
-import productUk07 from '../../images/The_Rolling_Stones.jpg';
-import productUk08 from '../../images/Duran_Duran.jpg';
-import productUk09 from '../../images/ThePolice.jpg';
-import productUk10 from '../../images/The_Beatles.jpg';
-import productUk11 from '../../images/Queen.jpg';
-import productUk12 from '../../images/Iron_Maiden.jpg';
+import productUk06 from '../../images/The_Rolling_Stones.jpg';
+import productUk07 from '../../images/Duran_Duran.jpg';
+import productUk08 from '../../images/ThePolice.jpg';
+import productUk09 from '../../images/The_Beatles.jpg';
+import productUk10 from '../../images/Queen.jpg';
+import productUk11 from '../../images/Iron_Maiden.jpg';
+import productUk12 from '../../images/Black_Sabbath.jpg';     
 
 /** Import Product Eua */
 
-import productEua01 from '../../images/Prince.jpg';
-import productEua02 from '../../images/MichaelJackson.jpg';
-import productEua03 from '../../images/Madonna.jpg';
-import productEua04 from '../../images/Guns_N_Roses.jpg';
+import productEua01 from '../../images/Aerosmith.jpg';
+import productEua02 from '../../images/Slayer.jpg';
+import productEua03 from '../../images/Slipknot.jpg';
+import productEua04 from '../../images/Ramones.jpg';
 import productEua05 from '../../images/Red_Hot_Chili_Peppers.jpg';
 import productEua06 from '../../images/Nirvana.jpg';
 import productEua07 from '../../images/Pearl_Jam.jpg';
 import productEua08 from '../../images/REM.jpg';
+import productEua09 from '../../images/Guns_N_Roses.jpg';
 
 /** Import Product Ale */
 
@@ -268,7 +270,7 @@ export const productDataUK = [
         button: 'Add to Cart',
     },
     {
-        img: productUk07,
+        img: productUk06,
         alt: 'Pizza The Rolling Stones',
         name: 'The Rolling Stones',
         desc: 'Mussarela, Tomate Seco, Rúcula',
@@ -276,7 +278,7 @@ export const productDataUK = [
         button: 'Add to Cart',
     },
     {
-        img: productUk08,
+        img: productUk07,
         alt: 'Pizza Duran Duran',
         name: 'Duran Duran',
         desc: 'Mussarela, Fiambre, Ovos Picados, Ervilha, Cebola',
@@ -284,7 +286,7 @@ export const productDataUK = [
         button: 'Add to Cart',
     },
     {
-        img: productUk09,
+        img: productUk08,
         alt: 'Pizza The Police',
         name: 'The Police',
         desc: 'Mussarela, Parmessão, Gorgonzola, Tomate, Alcaparras',
@@ -292,7 +294,7 @@ export const productDataUK = [
         button: 'Add to Cart',
     },
     {
-        img: productUk10,
+        img: productUk09,
         alt: 'Pizza The Beatles',
         name: 'The Beatles',
         desc: 'Mussarela, Carne Seca, Bacon, Cheddar, Cebola Frita',
@@ -300,7 +302,7 @@ export const productDataUK = [
         button: 'Add to Cart',
     },
     {
-        img: productUk11,
+        img: productUk10,
         alt: 'Pizza Queen',
         name: 'Queen',
         desc: 'Mussarela, Carne Bovina, Pimento',
@@ -308,44 +310,52 @@ export const productDataUK = [
         button: 'Add to Cart',
     },
     {
-        img: productUk12,
+        img: productUk11,
         alt: 'Pizza Iron Maiden',
         name: 'Iron Maiden',
         desc: 'Mussarela, Salaminho',
         price: '€ 13,00',
         button: 'Add to Cart',
-    } 
-];
+    },
+    {
+        img: productUk12,
+        alt: 'Pizza Black Sabbath',
+        name: 'Black Sabbath',
+        desc: 'Mussarela, Gorgonzola, Carne Seca, Tomate Seco, Rúcula',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },  
+]
 
 export const productDataEua = [
     {
         img: productEua01,
-        alt: 'Pizza Prince',
-        name: 'Prince',
+        alt: 'Pizza Aerosmith',
+        name: 'Aerosmith',
         desc: 'Mussarela, Fiambre, Ananás',
         price: '€ 12,00',
         button: 'Add to Cart',
     },
     {
         img: productEua02,
-        alt: 'Pizza Michael Jackson',
-        name: 'Michael Jackson',
+        alt: 'Pizza Slayer',
+        name: 'Slayer',
         desc: 'Mussarela, Bacon, Champignon',
         price: '€ 13,00',
         button: 'Add to Cart',
     },
     {
         img: productEua03,
-        alt: 'Pizza Madonna',
-        name: 'Madonna',
+        alt: 'Pizza Slipknot',
+        name: 'Slipknot',
         desc: 'Mussarela, Gorgonzola, Provolone, Parmesão',
         price: '€ 14,00',
         button: 'Add to Cart',
     },
     {
         img: productEua04,
-        alt: 'Pizza Guns N Roses',
-        name: 'Guns N Roses',
+        alt: 'Pizza Ramones',
+        name: 'Ramones',
         desc: 'Mussarela, Frango, Cheddar, Rodelas Tomate',
         price: '€ 13,00',
         button: 'Add to Cart',
@@ -379,6 +389,14 @@ export const productDataEua = [
         alt: 'Pizza REM',
         name: 'R.E.M.',
         desc: 'Mussarela, Champignon, Cebola',
+        price: '€ 13,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: productEua09,
+        alt: 'Pizza Guns N Roses',
+        name: 'Guns N Roses',
+        desc: 'Mussarela, Gorgonzola, Tomate Frito, Manjericão',
         price: '€ 13,00',
         button: 'Add to Cart',
     }

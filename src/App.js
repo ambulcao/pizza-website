@@ -13,6 +13,7 @@ import {
   productDataTree 
 } from './components/Products/data';
 import Feature from './components/Feature';
+import { SidebarLink } from './components/Sidebar/SidebarElements';
 
 function App() {
   return (
