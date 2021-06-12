@@ -5,18 +5,16 @@ import Hero from './components/Hero';
 import Products from './components/Products';
 import { productData, productDataTwo, productDataTree } from './components/Products/data';
 import Feature from './components/Feature';
-import FeatureBr from './components/Featurebr';
 
 function App() {
   return (
     <Router>
       <GlobalStyle/>
       <Hero/>
-      <Products heading='Escolha sua pizza favorita 🇬🇧' data={productData}/>
+      <Products heading='Pizza Favorita 🇬🇧' data={productData}/>
       <Feature />
-      <Products heading='Escolha sua pizza favorita 🇧🇷' data={productDataTwo}/>
+      <Products heading='Pizza Favorita 🇧🇷' data={productDataTwo}/>
       <Products heading='Escolha sua Sobremessa' data={productDataTree}/>
-      <FeatureBr />
     </Router>
   );
 }
