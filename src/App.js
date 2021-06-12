@@ -3,7 +3,15 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { GlobalStyle } from './globalStyles';
 import Hero from './components/Hero';
 import Products from './components/Products';
-import { productData, productDataTwo, productDataTree } from './components/Products/data';
+import { 
+  productDataBr, 
+  productDataPt, 
+  productDataUK, 
+  productDataEua,  
+  productDataAle, 
+  productDataUea,
+  productDataTree 
+} from './components/Products/data';
 import Feature from './components/Feature';
 
 function App() {
@@ -11,9 +19,13 @@ function App() {
     <Router>
       <GlobalStyle/>
       <Hero/>
-      <Products heading='Pizza Favorita 🇬🇧' data={productData}/>
+      <Products heading='Pizza Favorita 🇧🇷' data={productDataBr}/>
+      <Products heading='Pizza Favorita 🇵🇹' data={productDataPt}/>
+      <Products heading='Pizza Favorita 🇬🇧' data={productDataUK}/>
+      <Products heading='Pizza Favorita 🇺🇸' data={productDataEua}/>
+      <Products heading='Pizza Favorita 🇩🇪' data={productDataAle}/>
+      <Products heading='Pizza Favorita 🇪🇺' data={productDataUea}/>
       <Feature />
-      <Products heading='Pizza Favorita 🇧🇷' data={productDataTwo}/>
       <Products heading='Escolha sua Sobremessa' data={productDataTree}/>
     </Router>
   );
