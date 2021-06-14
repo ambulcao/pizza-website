@@ -8,6 +8,7 @@ import {
     SideBtnWrap, 
     SidebarRoute 
 } from './SidebarElements';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Sidebar = ({isOpen, toggle}) => {
     return (
@@ -16,6 +17,7 @@ const Sidebar = ({isOpen, toggle}) => {
                 <CloseIcon />
             </Icon>
             <SidebarMenu>
+                <AnchorLink href='#brazil'></AnchorLink>
                 <SidebarLink to="/">
                     Pizzas 🇧🇷 🇵🇹 🇬🇧 🇺🇸 🇩🇪 🇪🇺                
                 </SidebarLink>
