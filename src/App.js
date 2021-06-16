@@ -73,12 +73,12 @@ function App() {
             <ul>
               <p>Pizza Favorita</p>
               <li>
-                <a href="#pizzabr"></a>🇧🇷
+                <a href="#pizzabr">🇧🇷</a>
               </li>
             </ul>
           </nav>
           <main>
-            <section id="pizzabr" />
+            <section id="pizzabr" >🇧🇷</section>
           </main>
         </Products>
         <Products heading="Pizza Favorita 🇵🇹" data={productDataPt} />
@@ -87,7 +87,7 @@ function App() {
         <Products heading="Pizza Favorita 🇩🇪" data={productDataAle} />
         <Products heading="Pizza Favorita 🇪🇺" data={productDataUea} />
         <Feature />
-        <Products heading="Escolha sua Sobremessa" data={productDataTree} />
+        <Products heading="Escolha sua Sobremesa" data={productDataTree} />
         <Footer />
       </Router>
     </>
