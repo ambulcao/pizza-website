@@ -13,13 +13,18 @@ import {
   productDataTree 
 } from './components/Products/data';
 import Feature from './components/Feature';
+import { useTranslation } from 'react-i18next';
 
 function App() {
+  const {t, i18n} = useTranslation();
   return (
+    <>
     <Router>
       <GlobalStyle/>
       <Hero/>
-      <Products heading='Pizza Favorita 🇧🇷' data={productDataBr}/>
+      <Products heading="" data={productDataBr}>
+        <div className="greeting">{t('greeting 🇧🇷')}</div>
+      </Products>
       <Products heading='Pizza Favorita 🇵🇹' data={productDataPt}/>
       <Products heading='Pizza Favorita 🇬🇧' data={productDataUK}/>
       <Products heading='Pizza Favorita 🇺🇸' data={productDataEua}/>
@@ -28,6 +33,7 @@ function App() {
       <Feature />
       <Products heading='Escolha sua Sobremessa' data={productDataTree}/>
     </Router>
+    </>
   );
 }
 
