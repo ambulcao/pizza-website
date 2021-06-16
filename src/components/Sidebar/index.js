@@ -13,10 +13,10 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 const Sidebar = ({isOpen, toggle}) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
-            <Icon onClick={toggle}>
+          {/*   <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
-            <SidebarMenu>
+           <SidebarMenu>
                 <AnchorLink href='#brazil'></AnchorLink>
                 <SidebarLink to="/">
                     Pizzas 🇧🇷 🇵🇹 🇬🇧 🇺🇸 🇩🇪 🇪🇺                
@@ -28,7 +28,7 @@ const Sidebar = ({isOpen, toggle}) => {
             </SidebarMenu>
             <SideBtnWrap>
                 <SidebarRoute to="/">Peça agora</SidebarRoute>
-            </SideBtnWrap>
+          </SideBtnWrap> */}
         </SidebarContainer>
     )
 }
