@@ -11,12 +11,16 @@ import {
   productDataAle,
   productDataUea,
   productDataTree,
-  productDataCal
+  productDataCal,
+  productDataEsf,
+  productDataEsfDoces
 } from "./components/Products/data";
 import Feature from "./components/Feature";
-import Footer from "./components/Footer";
 import "./global.css";
 import FeatureBr from "./components/Featurebr";
+import FeatureEs from "./components/FeatureEs";
+import FeatureEsDc from "./components/FeatureEsDc";
+import Footer from "./components/Footer";
 
 function App() {
  
@@ -57,40 +61,43 @@ function App() {
           </li>
         </ul>
       </nav>
-      {/*<main>
-      <p>Pizza</p>
-      <section id="pizzabrasil">Pizza Favorita 🇧🇷</section>
-      <section id="pizzabrasil">🇵🇹</section>
-      <section id="pizzabrasil">🇬🇧</section>
-      <section id="pizzabrasil">🇺🇸</section>
-      <section id="pizzabrasil">🇩🇪</section>
-      <section id="pizzabrasil">🇪🇺</section>
-    </main>*/}
       <Router>
         <GlobalStyle />
         <Hero />
-        <Products heading="Pizza Favorita 🇧🇷" data={productDataBr}>
-          <nav>
-            <ul>
-              <p>Pizza Favorita</p>
-              <li>
-                <a href="#pizzabr">🇧🇷</a>
-              </li>
-            </ul>
-          </nav>
           <main>
-            <section id="pizzabr" >🇧🇷</section>
+            <section id="pizzabr" ><Products heading="Pizza Favorita 🇧🇷" data={productDataBr}/></section>
           </main>
-        </Products>
-        <Products heading="Pizza Favorita 🇵🇹" data={productDataPt} />
-        <Products heading="Pizza Favorita 🇬🇧" data={productDataUK} />
-        <Products heading="Pizza Favorita 🇺🇸" data={productDataEua} />
-        <Products heading="Pizza Favorita 🇩🇪" data={productDataAle} />
-        <Products heading="Pizza Favorita 🇪🇺" data={productDataUea} />
+          <main>
+            <section id="pizzapt" ><Products heading="Pizza Favorita 🇵🇹" data={productDataPt}/></section>
+          </main>
+          <main>
+            <section id="pizzauk" ><Products heading="Pizza Favorita 🇬🇧" data={productDataUK} /></section>
+          </main>
+          <main>
+            <section id="pizzaeua" ><Products heading="Pizza Favorita 🇺🇸" data={productDataEua} /></section>
+          </main>
+          <main>
+            <section id="pizzaale" ><Products heading="Pizza Favorita 🇩🇪" data={productDataAle} /></section>
+          </main>
+          <main>
+            <section id="pizzaue" ><Products heading="Pizza Favorita 🇪🇺" data={productDataUea} /></section>
+          </main>
         <Feature />
-        <Products heading="Escolha sua Sobremesa" data={productDataTree} />
+          <main>
+            <section id="sobremesa" ><Products heading="Escolha sua Sobremesa" data={productDataTree} /></section>
+          </main>
         <FeatureBr />
-        <Products heading="Calzones" data={productDataCal} />
+          <main>
+            <section id="calzone" ><Products heading="Calzones" data={productDataCal} /></section>
+          </main>
+        <FeatureEs />
+          <main>
+            <section id="esfiha" ><Products heading="Esfiha" data={productDataEsf} /></section>
+          </main>
+        <FeatureEsDc />
+          <main>
+            <section id="pfdoces" ><Products heading="Pizzas e Esfihas Doces" data={productDataEsfDoces} /></section>
+          </main>
         <Footer />
       </Router>
     </>

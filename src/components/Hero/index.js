@@ -7,6 +7,7 @@ import {
     HeroItems,
     HeroH1,
     HeroP,
+    Herop,
     HeroBtn 
 } from './HeroElements';
 
@@ -18,6 +19,7 @@ const Hero = () => {
     }
 
     return (
+    <>
        <HeroContainer>
            <Navbar toggle={toggle}/>
            <Sidebar isOpen={isOpen} toggle={toggle}/>
@@ -25,10 +27,12 @@ const Hero = () => {
                <HeroItems>
                    <HeroH1>Pizzaria e Cervejaria</HeroH1>
                    <HeroP>A melhor pizza de todos os tempos</HeroP>
+                   <Herop>Bordas recheadas com cheddar ou mussarela acresce + 4 € no valor da Pizza</Herop>
                    <HeroBtn>Faça a encomenda</HeroBtn>
                </HeroItems>
            </HeroContent>
        </HeroContainer>
+    </>
     );
 };
 

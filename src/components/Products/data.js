@@ -76,6 +76,9 @@ import sweet2 from '../../images/sweet-2.jpg';
 import sweet3 from '../../images/sweet-3.jpg';
 
 
+/** Import Calzones */
+
+
 /** Export Data */
 
 export const productDataBr = [
@@ -533,6 +536,30 @@ export const productDataTree = [
 
 
 export const productDataCal = [
+    {
+        img: sweet1,
+        alt: 'Calzone',
+        name: 'Calzone',
+        desc: 'Quadrados de brownie com fudge duplo coberto com pedaços de chocolate branco e nozes de macadâmia',
+        price: '€ 9,99',
+        button: 'Add to Cart',
+    }
+]
+
+
+export const productDataEsf = [
+    {
+        img: sweet1,
+        alt: 'Calzone',
+        name: 'Calzone',
+        desc: 'Quadrados de brownie com fudge duplo coberto com pedaços de chocolate branco e nozes de macadâmia',
+        price: '€ 9,99',
+        button: 'Add to Cart',
+    }
+]
+
+
+export const productDataEsfDoces = [
     {
         img: sweet1,
         alt: 'Calzone',
