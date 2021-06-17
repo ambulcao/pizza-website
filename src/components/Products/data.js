@@ -530,3 +530,15 @@ export const productDataTree = [
         button: 'Add to Cart',
     }
 ]
+
+
+export const productDataCal = [
+    {
+        img: sweet1,
+        alt: 'Calzone',
+        name: 'Calzone',
+        desc: 'Quadrados de brownie com fudge duplo coberto com pedaços de chocolate branco e nozes de macadâmia',
+        price: '€ 9,99',
+        button: 'Add to Cart',
+    }
+]
