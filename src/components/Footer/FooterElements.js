@@ -37,16 +37,18 @@ export const SocialLogo = styled(Link)`
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     margin-bottom: 16px;
     font-weight: bold;
+    padding: 2px;
 
     img {
         z-index: 1;
-        height: 50%;
-        width: 50%;
+        height: 10%;
+        width: 10%;
+        padding: 20px;
     }
 
 `;

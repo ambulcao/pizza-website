@@ -15,6 +15,7 @@ import {
     SocialIcons,
     SocialIconLink
 } from './FooterElements';
+import whatssapp from '../../images/whatss.png'
 
 const Footer = () => {
     return (
@@ -22,7 +23,7 @@ const Footer = () => {
             <FooterWrap>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="/"><img href="../../images/whatss.png"/>+351 999 999 999 (Consultar taxa de entrega)</SocialLogo>
+                        <SocialLogo to="/"><img src={whatssapp}/>+351 999 999 999 (Consultar taxa de entrega)</SocialLogo>
                         <SocialIcons>
                             <SocialIconLink href="https://www.facebook.com/domorropizzariacervejaria/" target="_blank" arial-label="Facebook" rel="nooper noreferrer">
                                 <FaFacebook/>
