@@ -23,7 +23,7 @@ const Footer = () => {
             <FooterWrap>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="/"><img className="App-logo" alt="" role="Testing bug" src={whatssapp}/>+351 999 999 999 (Consultar taxa de entrega)</SocialLogo>
+                        <SocialLogo to="/"><img className="App-logo" alt="" role="img" src={whatssapp}/>+351 999 999 999 (Consultar taxa de entrega)</SocialLogo>
                         <SocialIcons>
                             <SocialIconLink href="https://www.facebook.com/domorropizzariacervejaria/" target="_blank" arial-label="Facebook" rel="nooper noreferrer">
                                 <FaFacebook/>
