@@ -23,7 +23,7 @@ const Footer = () => {
             <FooterWrap>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="/"><img src={whatssapp}/>+351 999 999 999 (Consultar taxa de entrega)</SocialLogo>
+                        <SocialLogo to="/"><img className="App-logo" alt="" role="Testing bug" src={whatssapp}/>+351 999 999 999 (Consultar taxa de entrega)</SocialLogo>
                         <SocialIcons>
                             <SocialIconLink href="https://www.facebook.com/domorropizzariacervejaria/" target="_blank" arial-label="Facebook" rel="nooper noreferrer">
                                 <FaFacebook/>
@@ -38,6 +38,9 @@ const Footer = () => {
                                 <FaTwitter/>
                             </SocialIconLink>
                             <SocialIconLink href="/" target="_blank" arial-label="Linkedin" rel="nooper noreferrer">
+                                <FaLinkedin/>
+                            </SocialIconLink>
+                            <SocialIconLink href="/" target="_blank" arial-label="Whatssapp" rel="nooper noreferrer">
                                 <FaLinkedin/>
                             </SocialIconLink>
                         </SocialIcons>
