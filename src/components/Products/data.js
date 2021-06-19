@@ -40,12 +40,12 @@ import productUk12 from '../../images/Black_Sabbath.jpg';
 /** Import Product Eua */
 
 import productEua01 from '../../images/Aerosmith.jpg';
-import productEua02 from '../../images/Slayer.jpg';
+import productEua02 from '../../images/Pearl_Jam.jpg';
 import productEua03 from '../../images/Slipknot.jpg';
 import productEua04 from '../../images/Ramones.jpg';
 import productEua05 from '../../images/Red_Hot_Chili_Peppers.jpg';
 import productEua06 from '../../images/Nirvana.jpg';
-import productEua07 from '../../images/Pearl_Jam.jpg';
+import productEua07 from '../../images/Metallica.jpg';
 import productEua08 from '../../images/REM.jpg';
 import productEua09 from '../../images/Guns_N_Roses.jpg';
 
@@ -77,7 +77,12 @@ import sweet3 from '../../images/sweet-3.jpg';
 
 
 /** Import Calzones */
-
+import calzone1 from '../../images/CharlieBrown.jpg';
+import calzone2 from '../../images/Sepultura.jpg';
+import calzone3 from '../../images/DavidBowie.jpg';
+import calzone4 from '../../images/DepecheMode.jpg';
+import calzone5 from '../../images/Radiohead.jpg';
+import calzone6 from '../../images/ImagineDragons.jpg';
 
 /** Export Data */
 
@@ -341,8 +346,8 @@ export const productDataEua = [
     },
     {
         img: productEua02,
-        alt: 'Pizza Slayer',
-        name: 'Slayer',
+        alt: 'Pizza Pearl Jam',
+        name: 'Pearl Jam',
         desc: 'Mussarela, Bacon, Champignon',
         price: '€ 13,00',
         button: 'Add to Cart',
@@ -381,8 +386,8 @@ export const productDataEua = [
     },
     {
         img: productEua07,
-        alt: 'Pizza Pearl Jam',
-        name: 'Pearl Jam',
+        alt: 'Pizza Metallica',
+        name: 'Metallica',
         desc: 'Mussarela, Gorgonzola, Provolone, Parmesão, Cheddar',
         price: '€ 15,00',
         button: 'Add to Cart',
@@ -534,18 +539,56 @@ export const productDataTree = [
     }
 ]
 
-
 export const productDataCal = [
     {
-        img: sweet1,
-        alt: 'Calzone',
-        name: 'Calzone',
-        desc: 'Quadrados de brownie com fudge duplo coberto com pedaços de chocolate branco e nozes de macadâmia',
-        price: '€ 9,99',
+        img: calzone1,
+        alt: 'Calzone Charlie Brown',
+        name: 'Charlie Brown',
+        desc: 'Mussarela, Atum, Cebola, Pimentos',
+        price: '€ 16,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: calzone2,
+        alt: 'Calzone Sepultura',
+        name: 'Sepultura',
+        desc: 'Mussarela, Fiambre, Ovos Picados, Ervilha, Cebola',
+        price: '€ 16,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: calzone3,
+        alt: 'Calzone DavidBowie',
+        name: 'DavidBowie',
+        desc: 'Mussarela, Carne Seca, Tomate',
+        price: '€ 16,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: calzone4,
+        alt: 'Calzone DepecheMode',
+        name: 'DepecheMode',
+        desc: 'Mussarela, Fiambre, Frango, Tomate',
+        price: '€ 16,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: calzone5,
+        alt: 'Calzone Radiohead',
+        name: 'Radiohead',
+        desc: 'Mussarela, Frango',
+        price: '€ 14,00',
+        button: 'Add to Cart',
+    },
+    {
+        img: calzone6,
+        alt: 'Calzone ImagineDragons',
+        name: 'Imagine Dragons',
+        desc: 'Mussarela, Tomate, Rúcula',
+        price: '€ 14,00',
         button: 'Add to Cart',
     }
 ]
-
 
 export const productDataEsf = [
     {
