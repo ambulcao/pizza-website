@@ -28,7 +28,7 @@ const Footer = () => {
                             <SocialIconLink href="https://www.facebook.com/domorropizzariacervejaria/" target="_blank" arial-label="Facebook" rel="nooper noreferrer">
                                 <FaFacebook/>
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" arial-label="Instagram" rel="nooper noreferrer">
+                            <SocialIconLink href="https://www.instagram.com/domorropizzariacervejaria/" target="_blank" arial-label="Instagram" rel="nooper noreferrer">
                                 <FaInstagram/>
                             </SocialIconLink>
                             <SocialIconLink href="/" target="_blank" arial-label="Youtube" rel="nooper noreferrer">
@@ -38,9 +38,6 @@ const Footer = () => {
                                 <FaTwitter/>
                             </SocialIconLink>
                             <SocialIconLink href="/" target="_blank" arial-label="Linkedin" rel="nooper noreferrer">
-                                <FaLinkedin/>
-                            </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" arial-label="Whatssapp" rel="nooper noreferrer">
                                 <FaLinkedin/>
                             </SocialIconLink>
                         </SocialIcons>

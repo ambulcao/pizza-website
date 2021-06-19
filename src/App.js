@@ -21,6 +21,7 @@ import FeatureBr from "./components/Featurebr";
 import FeatureEs from "./components/FeatureEs";
 import FeatureEsDc from "./components/FeatureEsDc";
 import Footer from "./components/Footer";
+import FeatureDivuga from "./components/FeatureDivulga";
 
 function App() {
  
@@ -64,6 +65,7 @@ function App() {
       <Router>
         <GlobalStyle />
         <Hero />
+          <FeatureDivuga/>
           <main>
             <section id="pizzabr" ><Products heading="Pizza Favorita 🇧🇷" data={productDataBr}/></section>
           </main>
